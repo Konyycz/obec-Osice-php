@@ -8,12 +8,12 @@
                 <h4 class="menu-nadpis">Obecní úřad</h4>
             </div>
             <div class="menu-body display-flex-column">
-                <a class="menu-body-odkaz" href="">Kontakty</a>
-                <a class="menu-body-odkaz" href="">Úřední deska</a>
-                <a class="menu-body-odkaz" href="/obec-Osice-php/page_dokumenty.php">Dokumenty</a>
-                <a class="menu-body-odkaz" href="">Povinná publicita</a>
-                <a class="menu-body-odkaz" href="">Užitečné informace</a>
-                <a class="menu-body-odkaz" href="">Poskytování informací</a>
+                <a class="menu-body-odkaz" href="/kontakty/">Kontakty</a>
+                <a class="menu-body-odkaz" href="/uredni-deska/">Úřední deska</a>
+                <a class="menu-body-odkaz" href="/dokumenty/">Dokumenty</a>
+                <a class="menu-body-odkaz" href="/povinna-publicita/">Povinná publicita</a>
+                <a class="menu-body-odkaz" href="/uzitecne-informace/">Užitečné informace</a>
+                <a class="menu-body-odkaz" href="/poskytovani-informaci/">Poskytování informací</a>
             </div>
         </div>
 
@@ -22,12 +22,12 @@
                 <h4 class="menu-nadpis">Obec</h4>
             </div>
             <div class="menu-body display-flex-column">
-                <a class="menu-body-odkaz" href="">Základní a mateřská škola</a>
-                <a class="menu-body-odkaz" href="">Podnikatelé a firmy</a>
-                <a class="menu-body-odkaz" href="">Svoz odpadů</a>
-                <a class="menu-body-odkaz" href="">Jízdní řády</a>
-                <a class="menu-body-odkaz" href="">O obci</a>
-                <a class="menu-body-odkaz" href="">Pošta Partner</a>
+                <a class="menu-body-odkaz" href="/zakladni-materska-skola/">Základní a mateřská škola</a>
+                <a class="menu-body-odkaz" href="/podnikatele-firmy/">Podnikatelé a firmy</a>
+                <a class="menu-body-odkaz" href="/svoz-odpadu/">Svoz odpadů</a>
+                <a class="menu-body-odkaz" href="/jizdni-rady/">Jízdní řády</a>
+                <a class="menu-body-odkaz" href="/o-obci/">O obci</a>
+                <a class="menu-body-odkaz" href="/posta-partner/">Pošta Partner</a>
             </div>
         </div>
 
@@ -36,11 +36,11 @@
                 <h4 class="menu-nadpis">Volný čas</h4>
             </div>
             <div class="menu-body display-flex-column">
-                <a class="menu-body-odkaz" href="">Akce a události</a>
-                <a class="menu-body-odkaz" href="">Pronájem obecních prostor</a>
-                <a class="menu-body-odkaz" href="">Osická sedmička</a>
-                <a class="menu-body-odkaz" href="">JSDH Osice</a>
-                <a class="menu-body-odkaz" href="">Knihovna</a>
+                <a class="menu-body-odkaz" href="/akce-udalosti/">Akce a události</a>
+                <a class="menu-body-odkaz" href="/pronajem-obecnich-prostor/">Pronájem obecních prostor</a>
+                <a class="menu-body-odkaz" href="/osicka-sedmicka/">Osická sedmička</a>
+                <a class="menu-body-odkaz" href="/jsdh-osice/">JSDH Osice</a>
+                <a class="menu-body-odkaz" href="/knihovna/">Knihovna</a>
             </div>
         </div>
 
