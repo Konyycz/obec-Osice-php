@@ -69,6 +69,6 @@
 
 <script>
 
-  $(".menu-urad").addClass('main-menu-active');
+  $(".menu-cas").addClass('main-menu-active');
 
 </script>
