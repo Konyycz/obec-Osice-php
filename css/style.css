@@ -1,0 +1,843 @@
+/* */
+
+* {
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif ;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.display-flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.display-flex-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.col-1{flex:0 0 auto;width:8.3333333333%}
+.col-2{flex:0 0 auto;width:16.6666666667%}
+.col-3{flex:0 0 auto;width:25%}
+.col-4{flex:0 0 auto;width:33.3333333333%}
+.col-5{flex:0 0 auto;width:41.6666666667%}
+.col-6{flex:0 0 auto;width:50%}
+.col-7{flex:0 0 auto;width:58.3333333333%}
+.col-8{flex:0 0 auto;width:66.6666666667%}
+.col-9{flex:0 0 auto;width:75%}
+.col-10{flex:0 0 auto;width:83.3333333333%}
+.col-11{flex:0 0 auto;width:91.6666666667%}
+.col-12{flex:0 0 auto;width:100%}
+
+
+.text-white {
+    color: white;
+}
+
+.page-body {
+    margin-left: auto;
+    margin-top: 20px;
+    position: relative;
+    z-index: 7;
+}
+
+.karta {
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.karta-zluty-bok {
+    position: relative;
+    padding: 20px 20px 20px 40px;
+}
+
+.karta-zluty-bok::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 20px;
+    height: 100%;
+    background-image: linear-gradient(to bottom, #FFF200 ,#FFD025);
+}
+
+.karta-odkaz {
+    color: #3e3e3e;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 30px 0;
+    display: block;
+}
+
+/* HEADER */ 
+
+header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    position: relative;
+    background-image: url("../img/uvodni-foto.jpg");
+}
+
+.header-nadpis {
+    padding: 125px 0 175px 0;
+}
+
+.header-logo {
+    height: 100px;
+    width: fit-content;
+    margin: 0 auto 20px auto;
+    display: block;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+    margin: 0px;
+    font-size: 45px;
+    line-height: 67px;
+}
+
+h2 {
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -10px;
+    line-height: 1;
+}
+
+.header-nadpis-inner {
+    align-items: center;
+    width: 100%;
+}
+
+/* MENU */
+.menu-mobile {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    background-color: white;
+    padding: 5px 10px;
+    border: 1px solid rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+.menu-img {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.menu-img > img {
+    height: 24px;
+    margin-left: 10px;
+}
+
+.menu-mobile-body {
+    position: absolute;
+    top: 100%;
+    width: 248px;
+    right: -350px;
+    background-color: white;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.menu-mobile:hover .menu-mobile-body {
+    right: 0px;
+}
+
+.menu-mobile-body-inner {
+    width: 100%;
+    height: 41px;
+    overflow: hidden;
+}
+
+.menu-mobile-nadpis {
+    background-color: #3e3e3e;
+    padding: 8px 10px;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    font-weight: 600;
+}
+
+.menu-mobile-body-inner:hover {
+    height: 251px;
+}
+
+.menu-mobile-body-inner:hover .menu-mobile-nadpis {
+    background-color: #00AEEF;
+}
+
+.menu-mobile-odkaz {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin: 5px 0;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.menu-pc {
+    justify-content: space-between;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    margin-top: -57px;
+    display: none!important;
+}
+
+.menu-pc:hover {
+    z-index: 20;
+}
+
+.main-menu {
+    order: 2;
+    position: relative;
+}
+
+.main-menu-active {
+    order: 1!important;
+    z-index: 1000;
+}
+
+.menu-header {
+    width: calc(100% - 16px);
+    background-color: #3e3e3e;
+    padding: 12px 0 12px 30px;
+    box-sizing: border-box;
+}
+
+.main-menu-active > .menu-header {
+    background-color: #00AEEF;
+}
+
+.menu-nadpis {
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: left;
+}
+
+.menu-body {
+    width: calc(100% - 18px);
+    background-color: white;
+    height: 0;
+    overflow: hidden;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-top: 0;
+}
+
+.main-menu:nth-child(3) > .menu-header, .main-menu:nth-child(3) > .menu-body {
+    width: 100%;
+}
+
+.menu-body-open > .menu-body, .main-menu:hover > .menu-body, .main-menu-active > .menu-body {
+    padding: 15px 0;
+    height: 210px;
+}
+
+.menu-body-odkaz {
+    text-decoration: none;
+    color: black;
+    padding: 5px 0 5px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.menu-body-odkaz:hover, .menu-mobile-odkaz:hover {
+    color: #FFD025;
+}
+
+.menu-body-odkaz-active {
+    color: #00AEEF;
+}
+
+.main-menu-active > .menu-header, .main-menu-active > .menu-body {     
+    width: calc(100% - 16px) !important; 
+}  
+
+.main-menu-last > .menu-header, .main-menu-last > .menu-body {
+    width: 100% !important; 
+}
+
+@media (min-width: 992px) {
+    .menu-pc {
+        display: flex!important;
+    }
+    .menu-mobile {
+        display: none;
+    }
+}
+
+/* footer */ 
+
+footer {
+    color: #ddd;
+}
+
+.paticka-vrchni {
+    position: relative;
+    z-index: 3;
+    background-color: white;
+    padding: 50px;
+    box-sizing: border-box;
+    margin-bottom: -180px;
+}
+
+.paticka-vrchni-nadpis {
+    color: #3e3e3e;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.paticka-vrchni-loga {
+    align-items: center;
+}
+
+.paticka-vrchni-partner {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.partneri-logo {
+    height: 57px;
+}
+
+.paticka-nadpis-mini {
+    color: #bfbfbf;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.paticka-stred {
+    background-color: #343434;
+    padding: 200px 0 20px 0;
+}
+
+.paticka-stred-column {
+    text-align: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.paticka-nadpis {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.paticka-text {
+    color: #ddd;
+    font-weight: 400;
+}
+
+.paticka-margin {
+    margin-bottom: 15px;
+}
+
+.paticka-odkaz:hover {
+    color: white;
+}
+
+.paticka-spodni {
+    background-color: #212121;
+    width: 100%;
+    padding: 20px 0;
+    font-size: 13px;
+    text-align: center;
+}
+
+.paticka-spodni-odkazy {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.paticka-tecka {
+    background-color: #3e3e3e;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    margin: 0px 10px;
+    opacity: 0;
+}
+
+
+/* HOMEPAGE */ 
+
+.homepage {
+    margin: 50px auto 80px auto;
+    align-items: stretch;
+}
+
+.homepage-body {
+    width: 100%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.homepage-body-modre {
+    margin-right: 0px;
+    background-image: linear-gradient(to right bottom, #00AEEF , #008EEF);
+}
+
+.homepage-body-zlute {
+    margin-left: 0px;
+    background-image: linear-gradient(to right bottom, #FFF200 ,#FFD025);
+}
+
+.homepage-nadpis {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.homepage-udalost-nadpis {
+    font-size: 25px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.homepage-udalost-text {
+    font-size: 14px;
+    line-height: 1;
+}
+
+.homepage-line {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin: 25px 0;
+}
+
+.homepage-line-white {
+    background-color: white;
+}
+
+.homepage-button {
+    color: black;
+    padding: 8px 80px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    outline: none;
+    display: block;
+    font-weight: 700;
+    border: 3px solid black;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.homepage-button:hover {
+    color: #FFF200;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+/* Užitečné informace */
+
+.informace {
+    margin-bottom: 50px;
+}
+
+.sekce-nadpis {
+    color: #9b9b9b;
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.informace-nadpis {
+    font-size: 30px;
+    color: #3e3e3e;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.uzitecne-informace-karta {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.uzitecne-informace-karta-2 {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+/* Úřední deska */
+
+.uredni-deska-karta {
+    margin: 10px 0;
+    padding: 40px 50px;
+}
+
+.uredni-deska-nadpis {
+    color: #3e3e3e;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.uredni-deska-kestazeni {
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.uredni-deska-text {
+    color: #676767;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.uredni-deska-vyveseno {
+    font-size: 13px;
+    text-align: right;
+}
+
+.uredni-deska-nadpis-spodni {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    color: #9b9b9b;
+    font-weight: 600;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.uredni-deska-nadpis-spodni > img {
+    height: 15px;
+    margin-left: 10px;
+}
+
+/* Úřední deska archiv */
+
+.filtrovani-archiv {
+    width: 100%;
+    padding: 20px;
+    background-image: linear-gradient(to right, #00AEEF , #008EEF);
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    align-items: flex-end;
+}
+
+.combobox-label {
+    color: white;
+    font-weight: 600;
+    display: block;
+}
+
+.combobox {
+    outline: none;
+    border: none;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.filtrovani-archiv-button {
+    background-color: transparent;
+    color: white;
+    padding: 4px 50px;
+    border-radius: 50px;
+    border: 5px solid white;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 20px auto 0 auto;
+    display: block;
+}
+
+.filtrovani-archiv-button:hover {
+    background-color: white;
+    color: #008EEF;
+}
+
+/* Dokumenty */
+
+.spodni-navigace {
+    color: #9b9b9b;
+    font-size: 20px;
+    align-items: center;
+    margin: 30px auto 80px auto;
+    width: fit-content;
+}
+
+.spodni-navigace-odkaz {
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.spodni-navigace-sipka {
+    height: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.spodni-navigace-sipka-doleva {
+    margin-right: 20px;
+    margin-left: 0;
+    transform: rotateZ(180deg);
+}
+
+/* Akce a události */ 
+
+.karta-udalosti-text {
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: 700;
+    color: #5d5d5d;
+}
+
+.udalosti-button {
+    cursor: pointer;
+    color: #3e3e3e;
+    border-radius: 50px;
+    border: 5px solid #3e3e3e;
+    padding: 5px 0;
+    font-size: 16px;
+    font-weight: 700;
+    width: 45%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.udalosti-button:nth-child(5) {
+    margin-right: 0px;
+}
+
+.udalosti-button-active {
+    color: #00aeef;
+    border: 5px solid #00aeef;
+}
+
+/*------------------------------------
+MEDIA
+------------------------------------*/
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+    h1 {
+        font-size: 65px;
+    }
+    h2 {
+        font-size: 40px;
+        margin-top: 5px;
+    }
+    .col-sm-1{flex:0 0 auto;width:8.3333333333%}
+    .col-sm-2{flex:0 0 auto;width:16.6666666667%}
+    .col-sm-3{flex:0 0 auto;width:25%}
+    .col-sm-4{flex:0 0 auto;width:33.3333333333%}
+    .col-sm-5{flex:0 0 auto;width:41.6666666667%}
+    .col-sm-6{flex:0 0 auto;width:50%}
+    .col-sm-7{flex:0 0 auto;width:58.3333333333%}
+    .col-sm-8{flex:0 0 auto;width:66.6666666667%}
+    .col-sm-9{flex:0 0 auto;width:75%}
+    .col-sm-10{flex:0 0 auto;width:83.3333333333%}
+    .col-sm-11{flex:0 0 auto;width:91.6666666667%}
+    .col-sm-12{flex:0 0 auto;width:100%
+    }
+    /* header */
+    .header-logo {
+        height: 150px;
+    }
+    /* úřední deska */
+    .uredni-deska-nadpis-spodni {
+        text-align: left;
+        font-size: 25px;
+    }
+    .uredni-deska-nadpis-spodni > img {
+        height: 20px;
+        margin-left: 30px;
+    }
+    /* Akce a události */
+    .udalosti-button {
+        width: 31%;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 75px;
+    }
+    .container {
+        max-width: 720px;
+    }
+    .col-md-1{flex:0 0 auto;width:8.3333333333%}
+    .col-md-2{flex:0 0 auto;width:16.6666666667%}
+    .col-md-3{flex:0 0 auto;width:25%}
+    .col-md-4{flex:0 0 auto;width:33.3333333333%}
+    .col-md-5{flex:0 0 auto;width:41.6666666667%}
+    .col-md-6{flex:0 0 auto;width:50%}
+    .col-md-7{flex:0 0 auto;width:58.3333333333%}
+    .col-md-8{flex:0 0 auto;width:66.6666666667%}
+    .col-md-9{flex:0 0 auto;width:75%}
+    .col-md-10{flex:0 0 auto;width:83.3333333333%}
+    .col-md-11{flex:0 0 auto;width:91.6666666667%}
+    .col-md-12{flex:0 0 auto;width:100%}
+    .uzitecne-informace-karta {
+        width: calc(100% - 8px);
+        margin-right: 8px;
+    }
+    
+    .uzitecne-informace-karta-2 {
+        width: calc(100% - 8px);
+        margin-left: 8px;
+    }
+    .informace-nadpis {
+        font-size: 40px;
+    }
+    /* Akce a události */
+    .udalosti-button {
+        width: 19%;
+    }
+}
+@media (min-width: 992px) {
+    h1 {
+        font-size: 75px;
+    }
+    .header-nadpis-inner {
+        align-items: center;
+        width: fit-content;
+    }
+    .header-logo-2 {
+        margin: 0 20px 0 0;
+    }
+    .container {
+        max-width: 960px;
+    }
+    .col-lg-1{flex:0 0 auto;width:8.3333333333%}
+    .col-lg-2{flex:0 0 auto;width:16.6666666667%}
+    .col-lg-3{flex:0 0 auto;width:25%}
+    .col-lg-4{flex:0 0 auto;width:33.3333333333%}
+    .col-lg-5{flex:0 0 auto;width:41.6666666667%}
+    .col-lg-6{flex:0 0 auto;width:50%}
+    .col-lg-7{flex:0 0 auto;width:58.3333333333%}
+    .col-lg-8{flex:0 0 auto;width:66.6666666667%}
+    .col-lg-9{flex:0 0 auto;width:75%}
+    .col-lg-10{flex:0 0 auto;width:83.3333333333%}
+    .col-lg-11{flex:0 0 auto;width:91.6666666667%}
+    .col-lg-12{flex:0 0 auto;width:100%}
+    /* HOMEPAGE */
+    .homepage {
+        margin-top: 250px;
+    }
+    .homepage-body {
+        width: calc(100% - 8px);
+        padding: 40px 60px;
+        margin-top: 30px;
+    }
+    
+    .homepage-body-modre {
+        margin-right: 8px;
+    }
+    
+    .homepage-body-zlute {
+        margin-left: 8px;
+    }
+    
+
+    .homepage-button {
+        margin: 20px auto 0 0;
+    }
+    
+    /* FOOTER */
+    #footer {
+        margin-top: 50px;
+    }
+    .paticka-vrchni-partner {
+        margin-bottom: 0px;
+    }
+    .partneri-logo {
+        height: 83px;
+    }
+    .paticka-stred {
+        background-color: #343434;
+        padding: 250px 0 50px 0;
+    }
+    .paticka-stred-column {
+        text-align: left;
+        align-items: flex-start;
+    }
+    .paticka-spodni {
+        font-size: 14px;
+        text-align: left;
+    }
+    .paticka-spodni-odkazy {
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+    .paticka-margin {
+        margin: 0;
+    }
+    /* Užitečné informace */
+    .informace {
+        margin-bottom: 300px;
+    }
+    /* Úřední deska archiv */
+    .filtrovani-archiv-button {
+        padding: 4px 25px;
+    }
+}
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 90px;
+    }
+    h2 {
+        font-size: 45px;
+        margin-top: 10px;
+    }
+    .container{
+        max-width: 1140px;
+    }
+    .col-xl-1{flex:0 0 auto;width:8.3333333333%}
+    .col-xl-2{flex:0 0 auto;width:16.6666666667%}
+    .col-xl-3{flex:0 0 auto;width:25%}
+    .col-xl-4{flex:0 0 auto;width:33.3333333333%}
+    .col-xl-5{flex:0 0 auto;width:41.6666666667%}
+    .col-xl-6{flex:0 0 auto;width:50%}
+    .col-xl-7{flex:0 0 auto;width:58.3333333333%}
+    .col-xl-8{flex:0 0 auto;width:66.6666666667%}
+    .col-xl-9{flex:0 0 auto;width:75%}
+    .col-xl-10{flex:0 0 auto;width:83.3333333333%}
+    .col-xl-11{flex:0 0 auto;width:91.6666666667%}
+    .col-xl-12{flex:0 0 auto;width:100%}
+    /* Úřední deska archiv */
+    .filtrovani-archiv-button {
+        padding: 4px 40px;
+    }
+}
