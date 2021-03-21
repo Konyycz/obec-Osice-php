@@ -1,0 +1,43 @@
+<?php include "_top.php"; ?>
+<div class="container">
+    <div class="page-body col-12 col-lg-8">
+      <h6 class="sekce-nadpis">Osice > Volný čas > Osická sedmička</h6>
+
+<div class="sedmicka">
+  <h3 class="informace-nadpis sedmicka-nadpis">Osická sedmička</h3>
+  <p class="sedmicka-text sedmicka-text-strong">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum corrupti adipisci tenetur repellendus provident sed! Quas nemo, totam libero velit maiores laborum iste porro odit ullam amet repellendus possimus rerum?
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, eligendi, culpa excepturi fuga voluptatibus quod adipisci itaque quia molestiae quisquam natus deserunt obcaecati cupiditate reiciendis porro repellendus ipsa reprehenderit deleniti?
+  </p>
+  <p class="sedmicka-text sedmicka-padding">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae dignissimos ad rem quod, voluptates fugit nam est nulla minima accusantium optio expedita neque sit aut quos sapiente odit aliquam illo.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat ad accusantium asperiores fuga omnis odit et quae cum, eligendi, quaerat ipsum assumenda, recusandae quo ea libero facere incidunt voluptates blanditiis.
+  </p>
+</div>
+
+<div class="display-flex-row sedmicka-obrazky">
+  <img class="blank-img" src="./img/blank-img.jpg" alt="blank-img">
+  <img class="blank-img" src="./img/blank-img.jpg" alt="blank-img">
+  <img class="blank-img blank-img-last" src="./img/blank-img.jpg" alt="blank-img">
+
+  <img class="blank-img" src="./img/blank-img.jpg" alt="blank-img">
+  <img class="blank-img" src="./img/blank-img.jpg" alt="blank-img">
+  <img class="blank-img blank-img-last" src="./img/blank-img.jpg" alt="blank-img">
+
+  <img class="blank-img" src="./img/blank-img.jpg" alt="blank-img">
+  <img class="blank-img" src="./img/blank-img.jpg" alt="blank-img">
+  <img class="blank-img blank-img-last" src="./img/blank-img.jpg" alt="blank-img">
+</div>
+      
+
+
+
+
+    </div>
+  </div>
+
+  <?php include "_bottom.php"; ?>
+
+<script>
+
+  $(".menu-cas").addClass('main-menu-active');
+  
+  </script>

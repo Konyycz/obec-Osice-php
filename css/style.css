@@ -632,16 +632,252 @@ footer {
     box-sizing: border-box;
     margin-bottom: 20px;
     text-align: center;
+    cursor: pointer;
 }
 
-.udalosti-button:nth-child(5) {
-    margin-right: 0px;
+.udalosti-button:hover {
+    border: 5px solid #00aeef;
+    background-color: #00aeef;
+    color: white;
 }
 
 .udalosti-button-active {
     color: #00aeef;
     border: 5px solid #00aeef;
 }
+
+/* Podnikatelé a firmy */ 
+
+.podnikatele-karta {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.podnikatele-odkaz {
+    color: #484747;
+    margin-left: 10px;
+}
+
+.podnikatele-nadpis {
+    font-size: 20px;
+    color: #3e3e3e;
+}
+
+.flex-end {
+    align-items: flex-end;
+}
+
+/* Osická sedmička */
+
+.sedmicka {
+    background-color: white;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sedmicka-text {
+    margin-left: 30px;
+    margin-top: 10px;
+    color: #5c5c5c;
+    width: 85%;
+}
+
+.sedmicka-text-strong {
+    font-weight: 700;
+}
+
+.sedmicka-padding {
+    padding-bottom: 50px;
+}
+
+.sedmicka-obrazky {
+    justify-content: space-between;
+}
+
+.blank-img {
+    margin-bottom: 20px;
+    width: calc(50% - 10px);
+}
+
+
+
+/* Jízdní  řády */
+
+.jizdni-rady {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    margin-bottom: 20px;
+    align-items: inherit;
+}
+
+.jizdni-rady-text {
+    background-color: white;
+    padding: 40px 0 40px 40px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.jizdni-rady-h3 {
+    font-weight: 800;
+    font-size: 22px;
+    color: #3e3e3e;
+    line-height: 1;
+}
+
+.jizdni-rady-h4 {
+    font-weight: 800;
+    color: #3e3e3e;
+    line-height: 1.2;
+}
+
+.jizdni-rady-button {
+    text-decoration: none;
+    color: #00AEEF;
+    border: 5px solid #00AEEF;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 5px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    width: 52%;
+}
+
+.jizdni-rady-button:hover {
+    color: white;
+    background-color: #00AEEF;
+}
+
+/* Pronájem obecních prostor */
+
+.pronajem-h4 {
+    color: #5c5c5c;
+    font-size: 14px;
+    margin-top: 10px;
+    width: 95%;
+}
+
+.pronajem-odkaz {
+    color: #5c5c5c;
+}
+
+.pronajem-kontakt {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Informace pro cestující */
+
+.informace-karta {
+    background-color: white;
+    padding: 20px;
+}
+
+.cestujici-nadpis {
+    padding: 10px;
+    font-size: 28px;
+    color: #3e3e3e;
+}
+
+.cestujici-text {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+  /* kontakty */ 
+
+  .kontakty-karta {
+    background-color: white;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+  }
+
+  .kontakty-nadpis{
+    color: #3e3e3e;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+.karta-obsah {
+    font-size: 13px;
+}
+
+  .karta-obsah-radek {
+    display: block;
+    width: 50%;
+    font-weight: 800;
+    margin-bottom: 5px;
+  }
+
+  .karta-telefon {
+    text-decoration: none;
+    color: #3e3e3e;
+  }
+  
+  .formular {
+    background-image: linear-gradient(to right, #00AEEF , #008EEF);
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+    margin: 30px 0;
+  }
+  
+  .formular-nadpis {
+    font-size: 30px;
+    padding-bottom: 20px;
+    text-align: left;
+    font-weight: 700;
+  }
+  
+  .form-label {
+    color: white;
+  }
+  
+  .form-button {
+    padding: 10px 30px;
+    font-size: 18px;
+    background-color: transparent;
+    color: white;
+    font-weight: 800;
+    border: 5px solid white;
+    border-radius: 50px;
+    display: block;
+    letter-spacing: 1.2px;
+    margin: 30px auto 0 auto;
+  }
+  
+  .form-button:hover {
+    background-color: white;
+    color: var(--main-blue);
+    cursor: pointer;
+    color: #00AEEF;
+  }
+
+  .form-small-button {
+      margin-right: 10px;
+  }
+
+  .form-input {
+      width: 100%;
+      border: none;
+      outline: none;
+      padding: 8px;
+      box-sizing: border-box;
+  }
+
+  .form-textarea {
+      width: 100%;
+  }
+
+  .kontakty-center {
+      align-items: center;
+      margin-top: 10px;
+  }
 
 /*------------------------------------
 MEDIA
@@ -724,6 +960,22 @@ MEDIA
     /* Akce a události */
     .udalosti-button {
         width: 19%;
+    }
+    /* Osická sedmička */
+    .blank-img {
+        margin-bottom: 20px;
+        width: calc(33.33% - 10px);
+    }
+    /* Kontakty */
+    .form-last {
+        margin-left: 15px;
+    }
+    .form-input {
+        width: calc(100% - 15px);
+    }
+    .form-button {
+        padding: 10px 60px;
+        font-size: 20px;
     }
 }
 @media (min-width: 992px) {
@@ -812,6 +1064,14 @@ MEDIA
     .filtrovani-archiv-button {
         padding: 4px 25px;
     }
+    /* Pronájem obecních prostor */
+    .pronajem-obecnich-prostor {
+        margin-bottom: 200px;
+    }
+    /* Kontakty */
+    .kontakty-karta-vlevo {
+        width: calc(100% - 16px)!important;
+      }
 }
 @media (min-width: 1200px) {
     h1 {

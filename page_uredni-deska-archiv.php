@@ -18,18 +18,18 @@
           <div class="display-flex-column col-12 col-md-6 col-lg-2">
             <label class="combobox-label" for="month">Měsíc:</label>
             <select class="combobox" name="month" id="month">
-              <option value="2021"></option>
-              <option value="2020">2020</option>
-              <option value="2019">2019</option>
-              <option value="2021">2021</option>
-              <option value="2020">2020</option>
-              <option value="2019">2019</option>
-              <option value="2021">2021</option>
-              <option value="2020">2020</option>
-              <option value="2019">2019</option>
-              <option value="2021">2021</option>
-              <option value="2020">2020</option>
-              <option value="2019">2019</option>
+              <option value="Leden"></option>
+              <option value="Únor">Únor</option>
+              <option value="Březen">Březen</option>
+              <option value="Duben">Duben</option>
+              <option value="Květen">Květen</option>
+              <option value="Červen">Červen</option>
+              <option value="Červenec">Červenec</option>
+              <option value="Srpen">Srpen</option>
+              <option value="Září">Září</option>
+              <option value="Říjen">Říjen</option>
+              <option value="Listopad">Listopad</option>
+              <option value="Prosinec">Prosinec</option>
             </select>
           </div>
 

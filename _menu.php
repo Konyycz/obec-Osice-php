@@ -8,8 +8,8 @@
                 <h4 class="menu-nadpis">Obecní úřad</h4>
             </div>
             <div class="menu-body display-flex-column">
-                <a class="menu-body-odkaz" href="/kontakty/">Kontakty</a>
-                <a class="menu-body-odkaz" href="/uredni-deska/">Úřední deska</a>
+                <a class="menu-body-odkaz" href="/page_kontakty.php">Kontakty</a>
+                <a class="menu-body-odkaz" href="/page_uredni-deska.php">Úřední deska</a>
                 <a class="menu-body-odkaz" href="/dokumenty/">Dokumenty</a>
                 <a class="menu-body-odkaz" href="/povinna-publicita/">Povinná publicita</a>
                 <a class="menu-body-odkaz" href="/uzitecne-informace/">Užitečné informace</a>
@@ -52,29 +52,29 @@
         <div class="display-flex-column menu-mobile-body">
             <div class="display-flex-column menu-mobile-body-inner">
                 <p class="menu-mobile-nadpis">Obecní úřad</p>
-                <a class="menu-mobile-odkaz" href="">Kontakty</a>
-                <a class="menu-mobile-odkaz" href="">Úřední deska</a>
-                <a class="menu-mobile-odkaz" href="">Dokumenty</a>
-                <a class="menu-mobile-odkaz" href="">Povinná publicita</a>
-                <a class="menu-mobile-odkaz" href="">Užitečné informace</a>
-                <a class="menu-mobile-odkaz" href="">Poskytování informací</a>
+                <a class="menu-mobile-odkaz" href="/kontakty/">Kontakty</a>
+                <a class="menu-mobile-odkaz" href="/uredni-deska/">Úřední deska</a>
+                <a class="menu-mobile-odkaz" href="/dokumenty/">Dokumenty</a>
+                <a class="menu-mobile-odkaz" href="/povinna-publicita/">Povinná publicita</a>
+                <a class="menu-mobile-odkaz" href="/uzitecne-informace/">Užitečné informace</a>
+                <a class="menu-mobile-odkaz" href="/poskytovani-informaci/">Poskytování informací</a>
             </div>
             <div class="display-flex-column menu-mobile-body-inner">
                 <p class="menu-mobile-nadpis">Obec</p>
-                <a class="menu-mobile-odkaz" href="">Základní a mateřská škola</a>
-                <a class="menu-mobile-odkaz" href="">Podnikatelé a firmy</a>
-                <a class="menu-mobile-odkaz" href="">Svoz odpadů</a>
-                <a class="menu-mobile-odkaz" href="">Jízdní řády</a>
-                <a class="menu-mobile-odkaz" href="">O obci</a>
-                <a class="menu-mobile-odkaz" href="">Pošta Partner</a>
+                <a class="menu-mobile-odkaz" href="/zakladni-materska-skola/">Základní a mateřská škola</a>
+                <a class="menu-mobile-odkaz" href="/podnikatele-firmy/">Podnikatelé a firmy</a>
+                <a class="menu-mobile-odkaz" href="/svoz-odpadu/">Svoz odpadů</a>
+                <a class="menu-mobile-odkaz" href="/jizdni-rady/">Jízdní řády</a>
+                <a class="menu-mobile-odkaz" href="/o-obci/">O obci</a>
+                <a class="menu-mobile-odkaz" href="/posta-partner/">Pošta Partner</a>
             </div>
             <div class="display-flex-column menu-mobile-body-inner">
                 <p class="menu-mobile-nadpis">Volný čas</p>
-                <a class="menu-mobile-odkaz" href="">Akce a události</a>
-                <a class="menu-mobile-odkaz" href="">Pronájem obecních prostor</a>
-                <a class="menu-mobile-odkaz" href="">Osická sedmička</a>
-                <a class="menu-mobile-odkaz" href="">JSDH Osice</a>
-                <a class="menu-mobile-odkaz" href="">Knihovna</a>
+                <a class="menu-mobile-odkaz" href="/akce-udalosti/">Akce a události</a>
+                <a class="menu-mobile-odkaz" href="/pronajem-obecnich-prostor/">Pronájem obecních prostor</a>
+                <a class="menu-mobile-odkaz" href="/osicka-sedmicka/">Osická sedmička</a>
+                <a class="menu-mobile-odkaz" href="/jsdh-osice/">JSDH Osice</a>
+                <a class="menu-mobile-odkaz" href="/knihovna/">Knihovna</a>
             </div>
         </div>
     </div>
