@@ -594,6 +594,11 @@ footer {
     color: #676767;
     font-weight: 600;
     font-size: 13px;
+    text-decoration: none;
+}
+
+.uredni-deska-text:hover {
+    text-decoration: underline;
 }
 
 .uredni-deska-vyveseno {

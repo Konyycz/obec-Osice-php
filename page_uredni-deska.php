@@ -8,7 +8,7 @@
 
         <div class="display-flex-column">
           <div class="karta uredni-deska-karta karta-zluty-bok">
-            <a class="uredni-deska-nadpis" href="/informace-pro-cestujici/">Informace pro cestující s platností<br> od 19.10.2020</a>
+            <a class="uredni-deska-nadpis" href="/informace-cestujici/">Informace pro cestující s platností<br> od 19.10.2020</a>
 
             <div class="display-flex-row"> 
               
@@ -28,7 +28,7 @@
 
 
           <div class="karta uredni-deska-karta karta-zluty-bok">
-            <a class="uredni-deska-nadpis" href="">Informace pro cestující s platností<br> od 19.10.2020</a>
+            <a class="uredni-deska-nadpis" href="/informace-cestujici/">Informace pro cestující s platností<br> od 19.10.2020</a>
            
             <div class="display-flex-row"> 
               <div class="display-flex-column col-12 col-md-6">
@@ -46,7 +46,7 @@
           </div>
 
           <div class="karta uredni-deska-karta karta-zluty-bok">
-            <a class="uredni-deska-nadpis" href="">Informace pro cestující s platností<br> od 19.10.2020</a>
+            <a class="uredni-deska-nadpis" href="/informace-cestujici/">Informace pro cestující s platností<br> od 19.10.2020</a>
             
             <div class="display-flex-row"> 
               <div class="display-flex-column col-12 col-md-6">

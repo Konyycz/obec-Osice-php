@@ -23,7 +23,7 @@
         </div>
       </div>
 
-    <a class="uredni-deska-nadpis-spodni display-flex-row" href="">Zpět na přehled úřední desky <img src="./img/prvky/arrow-right2.svg" alt="arrow-right"/></a>
+    <a class="uredni-deska-nadpis-spodni display-flex-row" href="/uredni-deska/">Zpět na přehled úřední desky <img src="/img/prvky/arrow-right2.svg" alt="arrow-right"/></a>
 
 
 
