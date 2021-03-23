@@ -1,7 +1,7 @@
 <?php include "_top.php"; ?>
 <div class="container">
     <div class="page-body col-12 col-lg-8" style="margin-bottom: 30px;">
-      <h6 class="sekce-nadpis"> <a class="breadcrumb" href="">Osice</a> > <a class="breadcrumb" href="">Obecní úřad</a> > <a class="breadcrumb" href="/uredni-deska/">Úřední deska</a> > <a class="breadcrumb" href="/uredni-deska-archiv/">Archiv</a></h6>
+      <h6 class="sekce-nadpis"> <a class="breadcrumb" href="">Osice</a> > <a class="breadcrumb" href="">Obecní úřad</a> > <a class="breadcrumb" href="/uredni-deska/">Úřední deska</a> > <a class="breadcrumb" href="/uredni-deska/uredni-deska-archiv/">Archiv</a></h6>
       <div class="uredni-deska">
         <h3 class="informace-nadpis">Úřední deska - archiv</h3>
 

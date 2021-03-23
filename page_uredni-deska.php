@@ -63,7 +63,7 @@
             </div>
           </div>
         </div>
-        <a class="uredni-deska-nadpis-spodni display-flex-row" href="">Archiv úřední desky <img src="/img/prvky/arrow-right2.svg" alt="arrow-right"/></a>
+        <a class="uredni-deska-nadpis-spodni display-flex-row" href="/uredni-deska/uredni-deska-archiv/">Archiv úřední desky <img src="/img/prvky/arrow-right2.svg" alt="arrow-right"/></a>
       </div>
 
 

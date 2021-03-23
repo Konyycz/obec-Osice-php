@@ -13,7 +13,58 @@
           <button class="udalosti-button">2017</button>
         </div>
 
-        <div class="display-flex-column">
+        <div class="display-flex-column" id="dokumenty-karty">
+          <div class="karta uredni-deska-karta karta-zluty-bok">
+            <a class="uredni-deska-nadpis" href="">Omezení provozu obecního úřadu Osice</a>
+
+            <p class="karta-udalosti-text">Vážení spoluobčané,<br><br>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit voluptatem porro quis non id dignissimos voluptate.
+            </p>
+          </div>
+
+
+          <div class="karta uredni-deska-karta karta-zluty-bok">
+            <a class="uredni-deska-nadpis" href="">Aktuální informace ke koronaviru</a>
+
+            <p class="karta-udalosti-text">Vážení spoluobčané,<br><br>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit voluptatem porro quis non id dignissimos voluptate.
+            </p>
+          </div>
+
+          <div class="karta uredni-deska-karta karta-zluty-bok 2019">
+            <a class="uredni-deska-nadpis" href="">Omezení provozu obecního úřadu Osice</a>
+
+            <p class="karta-udalosti-text">Vážení spoluobčané,<br><br>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit voluptatem porro quis non id dignissimos voluptate.
+            </p>
+          </div>
+
+
+          <div class="karta uredni-deska-karta karta-zluty-bok">
+            <a class="uredni-deska-nadpis" href="">Aktuální informace ke koronaviru</a>
+
+            <p class="karta-udalosti-text">Vážení spoluobčané,<br><br>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit voluptatem porro quis non id dignissimos voluptate.
+            </p>
+          </div>
+
+          <div class="karta uredni-deska-karta karta-zluty-bok">
+            <a class="uredni-deska-nadpis" href="">Omezení provozu obecního úřadu Osice</a>
+
+            <p class="karta-udalosti-text">Vážení spoluobčané,<br><br>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit voluptatem porro quis non id dignissimos voluptate.
+            </p>
+          </div>
+
+
+          <div class="karta uredni-deska-karta karta-zluty-bok">
+            <a class="uredni-deska-nadpis" href="">Aktuální informace ke koronaviru</a>
+
+            <p class="karta-udalosti-text">Vážení spoluobčané,<br><br>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit voluptatem porro quis non id dignissimos voluptate.
+            </p>
+          </div>
+
           <div class="karta uredni-deska-karta karta-zluty-bok">
             <a class="uredni-deska-nadpis" href="">Omezení provozu obecního úřadu Osice</a>
 
@@ -47,18 +98,95 @@
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit voluptatem porro quis non id dignissimos voluptate.
             </p>
           </div>
+
+          <div class="karta uredni-deska-karta karta-zluty-bok">
+            <a class="uredni-deska-nadpis" href="">Omezení provozu obecního úřadu Osice</a>
+
+            <p class="karta-udalosti-text">Vážení spoluobčané,<br><br>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit voluptatem porro quis non id dignissimos voluptate.
+            </p>
+          </div>
+
+
+          <div class="karta uredni-deska-karta karta-zluty-bok">
+            <a class="uredni-deska-nadpis" href="">Aktuální informace ke koronaviru</a>
+
+            <p class="karta-udalosti-text">Vážení spoluobčané,<br><br>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit voluptatem porro quis non id dignissimos voluptate.
+            </p>
+          </div>
+
+          <div class="karta uredni-deska-karta karta-zluty-bok">
+            <a class="uredni-deska-nadpis" href="">Omezení provozu obecního úřadu Osice</a>
+
+            <p class="karta-udalosti-text">Vážení spoluobčané,<br><br>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit voluptatem porro quis non id dignissimos voluptate.
+            </p>
+          </div>
+
+
+          <div class="karta uredni-deska-karta karta-zluty-bok">
+            <a class="uredni-deska-nadpis" href="">Aktuální informace ke koronaviru</a>
+
+            <p class="karta-udalosti-text">Vážení spoluobčané,<br><br>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit voluptatem porro quis non id dignissimos voluptate.
+            </p>
+          </div>
+
+          <div class="karta uredni-deska-karta karta-zluty-bok">
+            <a class="uredni-deska-nadpis" href="">Omezení provozu obecního úřadu Osice</a>
+
+            <p class="karta-udalosti-text">Vážení spoluobčané,<br><br>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit voluptatem porro quis non id dignissimos voluptate.
+            </p>
+          </div>
+
+
+          <div class="karta uredni-deska-karta karta-zluty-bok">
+            <a class="uredni-deska-nadpis" href="">Aktuální informace ke koronaviru</a>
+
+            <p class="karta-udalosti-text">Vážení spoluobčané,<br><br>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit voluptatem porro quis non id dignissimos voluptate.
+            </p>
+          </div>
+
+          <div class="karta uredni-deska-karta karta-zluty-bok">
+            <a class="uredni-deska-nadpis" href="">Omezení provozu obecního úřadu Osice</a>
+
+            <p class="karta-udalosti-text">Vážení spoluobčané,<br><br>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit voluptatem porro quis non id dignissimos voluptate.
+            </p>
+          </div>
+
+
+          <div class="karta uredni-deska-karta karta-zluty-bok">
+            <a class="uredni-deska-nadpis" href="">Aktuální informace ke koronaviru</a>
+
+            <p class="karta-udalosti-text">Vážení spoluobčané,<br><br>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit voluptatem porro quis non id dignissimos voluptate.
+            </p>
+          </div>
+
+          <div class="karta uredni-deska-karta karta-zluty-bok">
+            <a class="uredni-deska-nadpis" href="">Omezení provozu obecního úřadu Osice</a>
+
+            <p class="karta-udalosti-text">Vážení spoluobčané,<br><br>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit voluptatem porro quis non id dignissimos voluptate.
+            </p>
+          </div>
+
+
+          <div class="karta uredni-deska-karta karta-zluty-bok">
+            <a class="uredni-deska-nadpis" href="">Aktuální informace ke koronaviru</a>
+
+            <p class="karta-udalosti-text">Vážení spoluobčané,<br><br>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit voluptatem porro quis non id dignissimos voluptate.
+            </p>
+          </div>
+
+          
         </div>
         
-        
-        <div class="spodni-navigace display-flex-row">
-          <img class="spodni-navigace-sipka spodni-navigace-sipka-doleva" src="./img/prvky/arrow-right2.svg" alt="arrow-left"/>
-            <p class="spodni-navigace-odkaz">1</p>
-            <p class="spodni-navigace-odkaz"><strong>2</strong></p>
-            <p class="spodni-navigace-odkaz">3</p>
-            <p class="spodni-navigace-odkaz">4</p>
-            <p class="spodni-navigace-odkaz">5</p>
-          <img class="spodni-navigace-sipka" src="./img/prvky/arrow-right2.svg" alt="arrow-right"/>
-        </div>
 
       </div>
 
@@ -69,6 +197,11 @@
 
 <script>
 
-  $(".menu-cas").addClass('main-menu-active');
+    $(".menu-cas").addClass('main-menu-active');
+
+  $('#dokumenty-karty').paginate({
+    scope: $("div"),
+    perPage: 4,  
+});
 
 </script>

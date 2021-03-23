@@ -92,6 +92,41 @@ body {
     color: black;
 }
 
+.spodni-navigace {
+    color: #9b9b9b;
+    font-size: 20px;
+    align-items: center;
+    margin: 30px auto 80px auto;
+    width: fit-content;
+}
+
+.paginate-pagination {
+    margin: 50px 0 100px 0;
+}
+
+.paginate-pagination > ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style: none;
+    justify-content: center;
+}
+
+.paginate-pagination > ul > li {
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.page {
+    text-decoration: none;
+    color: #9b9b9b;
+}
+
+.active {
+    font-weight: 600;
+}
+
 /* HEADER */ 
 
 header {
@@ -147,10 +182,6 @@ h2 {
     position: fixed;
     top: 15px;
     right: 15px;
-    cursor: pointer;
-    background-color: white;
-    padding: 5px 10px;
-    border: 1px solid rgba(0,0,0,0.1);
     z-index: 1000;
 }
 
@@ -159,6 +190,24 @@ h2 {
     flex-direction: row;
     width: 100%;
     align-items: flex-end;
+    border: 1px solid rgba(0,0,0,0.1)!important;
+    background-color: white;
+    cursor: pointer;
+    outline: none;
+    padding: 5px 10px;
+}
+
+.menu-img-menu {
+    background-image: url("/img/prvky/menu.png");
+    height: 20px;
+    width: 20px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 10px;
+}
+
+.menu-img-close {
+    background-image: url("/img/prvky/arrow-right.svg")!important;
 }
 
 .menu-img > img {
@@ -174,10 +223,6 @@ h2 {
     background-color: white;
     box-sizing: border-box;
     overflow: hidden;
-}
-
-.menu-mobile:hover .menu-mobile-body {
-    right: 0px;
 }
 
 .menu-mobile-body-inner {
@@ -297,6 +342,10 @@ h2 {
 
 .main-menu-last > .menu-header, .main-menu-last > .menu-body {
     width: 100% !important; 
+}
+
+.menu-active-blue {
+    color: #00AEEF;
 }
 
 @media (min-width: 992px) {
@@ -612,33 +661,6 @@ footer {
     color: #008EEF;
 }
 
-/* Dokumenty */
-
-.spodni-navigace {
-    color: #9b9b9b;
-    font-size: 20px;
-    align-items: center;
-    margin: 30px auto 80px auto;
-    width: fit-content;
-}
-
-.spodni-navigace-odkaz {
-    margin: 0 5px;
-    cursor: pointer;
-}
-
-.spodni-navigace-sipka {
-    height: 20px;
-    margin-left: 20px;
-    cursor: pointer;
-}
-
-.spodni-navigace-sipka-doleva {
-    margin-right: 20px;
-    margin-left: 0;
-    transform: rotateZ(180deg);
-}
-
 /* Akce a události */ 
 
 .karta-udalosti-text {
@@ -746,7 +768,7 @@ footer {
     height: 100%;
     justify-content: center;
     margin-bottom: 20px;
-    align-items: inherit;
+    align-items: stretch;
 }
 
 .jizdni-rady-text {
@@ -770,11 +792,11 @@ footer {
 }
 
 .jizdni-rady-img {
-    background-image: url(../img/blank-img.jpg);
-    background-position: center center;
-    background-size: auto;
     background-repeat: no-repeat;
-    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    background-image: url("/img/blank-img.jpg");
+    min-height: 250px;
 }
 
 .jizdni-rady-button {
@@ -817,8 +839,8 @@ footer {
 .pronajem-img {
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    background-image: url("../img/blank-img.jpg");
+    background-position: center center;
+    background-image: url("/img/blank-img.jpg");
     min-height: 250px;
 }
 

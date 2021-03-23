@@ -57,7 +57,7 @@
                     <h5>Ke stažení:</h5>
                     <a class="homepage-udalost-text" style="cursor: pointer;">Informace [PDF, 260 kB]</a>
                 </div>
-                <a class="homepage-button" href="">Úřední deska</a>
+                <a class="homepage-button" href="/uredni-deska/">Úřední deska</a>
             </div>
         </div>
     </div>
