@@ -1,14 +1,14 @@
 <?php include "_top.php"; ?>
 <div class="container">
     <div class="page-body col-12 col-lg-8">
-      <h6 class="sekce-nadpis">Osice > Obecní úřad > Úřední deska</h6>
+      <h6 class="sekce-nadpis"> <a class="breadcrumb" href="">Osice</a> > <a class="breadcrumb" href="">Obecní úřad</a> > <a class="breadcrumb" href="/uredni-deska/">Úřední deska</a></h6>
       <div class="uredni-deska">
         <h3 class="informace-nadpis">Úřední deska</h3>
 
 
         <div class="display-flex-column">
           <div class="karta uredni-deska-karta karta-zluty-bok">
-            <a class="uredni-deska-nadpis" href="">Informace pro cestující s platností<br> od 19.10.2020</a>
+            <a class="uredni-deska-nadpis" href="/informace-pro-cestujici/">Informace pro cestující s platností<br> od 19.10.2020</a>
 
             <div class="display-flex-row"> 
               
@@ -63,7 +63,7 @@
             </div>
           </div>
         </div>
-        <a class="uredni-deska-nadpis-spodni display-flex-row" href="">Archiv úřední desky <img src="./img/prvky/arrow-right2.svg" alt="arrow-right"/></a>
+        <a class="uredni-deska-nadpis-spodni display-flex-row" href="">Archiv úřední desky <img src="/img/prvky/arrow-right2.svg" alt="arrow-right"/></a>
       </div>
 
 

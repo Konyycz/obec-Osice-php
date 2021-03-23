@@ -83,6 +83,15 @@ body {
     display: block;
 }
 
+.breadcrumb {
+    color: #9b9b9b;
+    text-decoration: none;
+}
+
+.breadcrumb:hover {
+    color: black;
+}
+
 /* HEADER */ 
 
 header {
@@ -103,6 +112,10 @@ header {
     width: fit-content;
     margin: 0 auto 20px auto;
     display: block;
+}
+
+.header-logo-a, .header-logo-a-homepage {
+    margin: 0 auto;
 }
 
 h1 {
@@ -156,7 +169,7 @@ h2 {
 .menu-mobile-body {
     position: absolute;
     top: 100%;
-    width: 248px;
+    width: 200px;
     right: -350px;
     background-color: white;
     box-sizing: border-box;
@@ -169,7 +182,7 @@ h2 {
 
 .menu-mobile-body-inner {
     width: 100%;
-    height: 41px;
+    height: 36px;
     overflow: hidden;
 }
 
@@ -180,10 +193,11 @@ h2 {
     box-sizing: border-box;
     color: white;
     font-weight: 600;
+    font-size: 13px;
 }
 
 .menu-mobile-body-inner:hover {
-    height: 251px;
+    height: 216px;
 }
 
 .menu-mobile-body-inner:hover .menu-mobile-nadpis {
@@ -198,6 +212,7 @@ h2 {
     text-decoration: none;
     color: black;
     font-weight: 500;
+    font-size: 12px;
 }
 
 .menu-pc {
@@ -269,7 +284,7 @@ h2 {
 }
 
 .menu-body-odkaz:hover, .menu-mobile-odkaz:hover {
-    color: #FFD025;
+    color: #00AEEF;
 }
 
 .menu-body-odkaz-active {
@@ -427,6 +442,14 @@ footer {
     font-size: 25px;
     line-height: 1.2;
     margin-bottom: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.homepage-udalost-nadpis:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .homepage-udalost-text {
@@ -485,15 +508,15 @@ footer {
     font-weight: 800;
 }
 
-.uzitecne-informace-karta {
+.uzitecne-informace-karta, .uzitecne-informace-karta-2 {
     width: 100%;
     margin-bottom: 16px;
 }
 
-.uzitecne-informace-karta-2 {
-    width: 100%;
-    margin-bottom: 16px;
+.uzitecne-informace-karta:hover, .uzitecne-informace-karta-2:hover {
+    background-color: rgba(0, 0, 0, 0.1);
 }
+
 
 /* Úřední deska */
 
@@ -506,6 +529,11 @@ footer {
     color: #3e3e3e;
     font-size: 24px;
     font-weight: 800;
+    text-decoration: none;
+}
+
+.uredni-deska-nadpis:hover {
+    text-decoration: underline;
 }
 
 .uredni-deska-kestazeni {
@@ -570,10 +598,10 @@ footer {
     color: white;
     padding: 4px 50px;
     border-radius: 50px;
-    border: 5px solid white;
+    border: 3px solid white;
     outline: none;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 700;
     cursor: pointer;
     margin: 20px auto 0 auto;
     display: block;
@@ -624,7 +652,7 @@ footer {
     cursor: pointer;
     color: #3e3e3e;
     border-radius: 50px;
-    border: 5px solid #3e3e3e;
+    border: 3px solid #3e3e3e;
     padding: 5px 0;
     font-size: 16px;
     font-weight: 700;
@@ -633,17 +661,18 @@ footer {
     margin-bottom: 20px;
     text-align: center;
     cursor: pointer;
+    outline: none;
 }
 
 .udalosti-button:hover {
-    border: 5px solid #00aeef;
+    border: 3px solid #00aeef;
     background-color: #00aeef;
     color: white;
 }
 
 .udalosti-button-active {
     color: #00aeef;
-    border: 5px solid #00aeef;
+    border: 3px solid #00aeef;
 }
 
 /* Podnikatelé a firmy */ 
@@ -656,6 +685,11 @@ footer {
 .podnikatele-odkaz {
     color: #484747;
     margin-left: 10px;
+    text-decoration: none;
+}
+
+.podnikatele-odkaz:hover {
+    text-decoration: underline;
 }
 
 .podnikatele-nadpis {
@@ -694,12 +728,15 @@ footer {
     justify-content: space-between;
 }
 
-.blank-img {
+.blank-img-a {
     margin-bottom: 20px;
     width: calc(50% - 10px);
 }
 
-
+.blank-img {
+    width: 100%;
+    height: 100%;
+}
 
 /* Jízdní  řády */
 
@@ -732,10 +769,18 @@ footer {
     line-height: 1.2;
 }
 
+.jizdni-rady-img {
+    background-image: url(../img/blank-img.jpg);
+    background-position: center center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
 .jizdni-rady-button {
     text-decoration: none;
     color: #00AEEF;
-    border: 5px solid #00AEEF;
+    border: 3px solid #00AEEF;
     border-radius: 50px;
     cursor: pointer;
     padding: 5px 20px;
@@ -743,7 +788,7 @@ footer {
     font-size: 16px;
     font-weight: 700;
     text-align: center;
-    width: 52%;
+    width: 70%;
 }
 
 .jizdni-rady-button:hover {
@@ -767,6 +812,14 @@ footer {
 .pronajem-kontakt {
     font-size: 18px;
     margin-bottom: 5px;
+}
+
+.pronajem-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/blank-img.jpg");
+    min-height: 250px;
 }
 
 /* Informace pro cestující */
@@ -816,7 +869,7 @@ footer {
 
   .karta-telefon {
     text-decoration: none;
-    color: #3e3e3e;
+    color: black;
   }
   
   .formular {
@@ -840,11 +893,11 @@ footer {
   
   .form-button {
     padding: 10px 30px;
-    font-size: 18px;
+    font-size: 16px;
     background-color: transparent;
     color: white;
-    font-weight: 800;
-    border: 5px solid white;
+    font-weight: 700;
+    border: 3px solid white;
     border-radius: 50px;
     display: block;
     letter-spacing: 1.2px;
@@ -924,6 +977,10 @@ MEDIA
     .udalosti-button {
         width: 31%;
     }
+        /* Jízdní řády */
+        .jizdni-rady-button {
+            width: 75%;
+        }
 }
 
 @media (min-width: 768px) {
@@ -957,12 +1014,18 @@ MEDIA
     .informace-nadpis {
         font-size: 40px;
     }
+    /* Homepage */
+    .homepage-body {
+        width: calc(100% - 8px);
+        padding: 20px 30px;
+        margin-top: 30px;
+    }
     /* Akce a události */
     .udalosti-button {
         width: 19%;
     }
     /* Osická sedmička */
-    .blank-img {
+    .blank-img-a {
         margin-bottom: 20px;
         width: calc(33.33% - 10px);
     }
@@ -986,7 +1049,7 @@ MEDIA
         align-items: center;
         width: fit-content;
     }
-    .header-logo-2 {
+    .header-logo-a {
         margin: 0 20px 0 0;
     }
     .container {
@@ -1099,5 +1162,9 @@ MEDIA
     /* Úřední deska archiv */
     .filtrovani-archiv-button {
         padding: 4px 40px;
+    }
+    /* Jízdní řády */
+    .jizdni-rady-button {
+        width: 52%;
     }
 }

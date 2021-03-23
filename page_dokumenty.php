@@ -1,7 +1,7 @@
 <?php include "_top.php"; ?>
 <div class="container">
     <div class="page-body col-12 col-lg-8">
-      <h6 class="sekce-nadpis">Osice > Obecní úřad > Dokumenty</h6>
+      <h6 class="sekce-nadpis"> <a class="breadcrumb" href="">Osice</a> > <a class="breadcrumb" href="">Obecní úřad</a> > <a class="breadcrumb" href="/dokumenty/">Dokumenty</a></h6>
       <div class="uredni-deska">
         <h3 class="informace-nadpis">Dokumenty</h3>
 
@@ -50,13 +50,13 @@
         
         
         <div class="spodni-navigace display-flex-row">
-          <img class="spodni-navigace-sipka spodni-navigace-sipka-doleva" src="./img/prvky/arrow-right2.svg" alt="arrow-left"/>
+          <img class="spodni-navigace-sipka spodni-navigace-sipka-doleva" src="/img/prvky/arrow-right2.svg" alt="arrow-left"/>
             <p class="spodni-navigace-odkaz">1</p>
             <p class="spodni-navigace-odkaz"><strong>2</strong></p>
             <p class="spodni-navigace-odkaz">3</p>
             <p class="spodni-navigace-odkaz">4</p>
             <p class="spodni-navigace-odkaz">5</p>
-          <img class="spodni-navigace-sipka" src="./img/prvky/arrow-right2.svg" alt="arrow-right"/>
+          <img class="spodni-navigace-sipka" src="/img/prvky/arrow-right2.svg" alt="arrow-right"/>
         </div>
 
       </div>
@@ -66,6 +66,7 @@
 
     </div>
   </div>
+
 
   <?php include "_bottom.php"; ?>
 

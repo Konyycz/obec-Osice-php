@@ -4,15 +4,15 @@
         <h2 class="paticka-vrchni-nadpis">Partneři</h2>
         <div class="display-flex-row paticka-vrchni-loga">
             <div class="display-flex-column col-12 col-md-6 col-lg-4 paticka-vrchni-partner">
-                <img class="partneri-logo" src="./img/logo/edera.png" alt="logo-edera">
+                <img class="partneri-logo" src="/img/logo/edera.png" alt="logo-edera">
                 <h6 class="paticka-nadpis-mini">EDERA Group</h6>
             </div>
             <div class="display-flex-column col-12 col-md-6 col-lg-4 paticka-vrchni-partner">
-                <img class="partneri-logo" src="./img/logo/ceska-obec.png" alt="logo-ceska-obec">
+                <img class="partneri-logo" src="/img/logo/ceska-obec.png" alt="logo-ceska-obec">
                 <h6 class="paticka-nadpis-mini">Česká obec</h6>
             </div>
             <div class="display-flex-column col-12 col-lg-4 paticka-vrchni-partner">
-                <img class="partneri-logo" src="./img/logo/czechpoint.png" alt="logo-czechpoint">
+                <img class="partneri-logo" src="/img/logo/czechpoint.png" alt="logo-czechpoint">
                 <h6 class="paticka-nadpis-mini">Czech POINT</h6>
             </div>
         </div>
@@ -24,12 +24,12 @@
         <div class="container display-flex-row">
             <div class="display-flex-column col-12 col-md-6 col-lg-4 paticka-stred-column">
                 <h3 class="paticka-nadpis">Kontakt</h3>
-                <p class="paticka-text">Obec Osice</p>
-                <p class="paticka-text">Osice 117</p>
-                <p class="paticka-text">503 26 Osice</p><br>
-                <a class="paticka-text" href="tel:+420495451823" style="text-decoration: none;">+420 495 451 823</a>
-                <a class="paticka-text" href="mailto:ou@osice.cz" style="text-decoration: none;">ou@osice.cz</a>
-                <p class="paticka-text">DS: 2t8apji</p>
+                <a href="https://www.google.cz/maps/place/Osice+117,+503+26+Osice/@50.1444892,15.6828375,17z/data=!3m1!4b1!4m5!3m4!1s0x470c2dd9e64d8385:0xfc5ca2c7ff4f9369!8m2!3d50.1444858!4d15.6850262" target="_blank" class="paticka-text paticka-odkaz" style="text-decoration: none">Obec Osice</a>
+                <a href="https://www.google.cz/maps/place/Osice+117,+503+26+Osice/@50.1444892,15.6828375,17z/data=!3m1!4b1!4m5!3m4!1s0x470c2dd9e64d8385:0xfc5ca2c7ff4f9369!8m2!3d50.1444858!4d15.6850262" target="_blank" class="paticka-text paticka-odkaz" style="text-decoration: none">Osice 117</a>
+                <a href="https://www.google.cz/maps/place/Osice+117,+503+26+Osice/@50.1444892,15.6828375,17z/data=!3m1!4b1!4m5!3m4!1s0x470c2dd9e64d8385:0xfc5ca2c7ff4f9369!8m2!3d50.1444858!4d15.6850262" target="_blank" class="paticka-text paticka-odkaz" style="text-decoration: none">503 26 Osice</a><br>
+                <a class="paticka-text paticka-odkaz" href="tel:+420495451823" style="text-decoration: none;">+420 495 451 823</a>
+                <a class="paticka-text paticka-odkaz" href="mailto:ou@osice.cz" style="text-decoration: none;">ou@osice.cz</a>
+                <p class="paticka-text paticka-odkaz">DS: 2t8apji</p>
             </div>
 
             <div class="display-flex-column col-12 col-md-6 col-lg-5 paticka-stred-column">
@@ -77,6 +77,7 @@
   src="https://code.jquery.com/jquery-3.6.0.min.js"
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
   crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
 </body>
 </html>

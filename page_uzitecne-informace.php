@@ -1,7 +1,7 @@
 <?php include "_top.php"; ?>
 <div class="container">
     <div class="page-body col-12 col-lg-8">
-      <h6 class="sekce-nadpis">Osice > Obecní úřad > Užitečné informace</h6>
+      <h6 class="sekce-nadpis"> <a class="breadcrumb" href="">Osice</a> > <a class="breadcrumb" href="">Obecní úřad</a> > <a class="breadcrumb" href="/uzitecne-informace/">Užitečné informace</a></h6>
       <div class="informace">
         <h3 class="informace-nadpis">Užitečné informace</h3>
           <div class="display-flex-row">
@@ -40,6 +40,8 @@
       </div>
     </div>
   </div>
+
+
   <?php include "_bottom.php"; ?>
 
   <script>

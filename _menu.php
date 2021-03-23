@@ -8,8 +8,8 @@
                 <h4 class="menu-nadpis">Obecní úřad</h4>
             </div>
             <div class="menu-body display-flex-column">
-                <a class="menu-body-odkaz" href="/page_kontakty.php">Kontakty</a>
-                <a class="menu-body-odkaz" href="/page_uredni-deska.php">Úřední deska</a>
+                <a class="menu-body-odkaz" href="/kontakty/">Kontakty</a>
+                <a class="menu-body-odkaz" href="/uredni-deska/">Úřední deska</a>
                 <a class="menu-body-odkaz" href="/dokumenty/">Dokumenty</a>
                 <a class="menu-body-odkaz" href="/povinna-publicita/">Povinná publicita</a>
                 <a class="menu-body-odkaz" href="/uzitecne-informace/">Užitečné informace</a>
@@ -48,7 +48,7 @@
 
 
     <div class="menu-mobile">
-        <p class="menu-img">Menu <img src="./img/prvky/menu.png" alt="menu"/></p>
+        <p class="menu-img">Menu <img src="/img/prvky/menu.png" alt="menu"/></p>
         <div class="display-flex-column menu-mobile-body">
             <div class="display-flex-column menu-mobile-body-inner">
                 <p class="menu-mobile-nadpis">Obecní úřad</p>

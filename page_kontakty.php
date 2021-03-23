@@ -1,7 +1,7 @@
 <?php include "_top.php"; ?>
 <div class="container">
     <div class="page-body col-12 col-lg-8">
-      <h6 class="sekce-nadpis">Osice > Obecní úřad > Kontakty</h6>
+      <h6 class="sekce-nadpis"> <a class="breadcrumb" href="">Osice</a> > <a class="breadcrumb" href="">Obecní úřad</a> > <a class="breadcrumb" href="/kontakty/">Kontakty</a></h6>
 
       <div class="display-flex-row">
 
@@ -10,9 +10,9 @@
           <div class="kontakty-karta kontakty-karta-vlevo">
             <h4 class="kontakty-nadpis">Obecní úřad Osice</h4>
               <div class="karta-obsah">
-                <p class="display-flex-row"><span class="karta-obsah-radek">Adresa:</span>Obec Osice<br>Osice 117<br>503 26 Osice</p>
-                <p class="display-flex-row"><span class="karta-obsah-radek">Telefon:</span><a>+420 495 451 823</a></p>
-                <p class="display-flex-row"><span class="karta-obsah-radek">E-mail:</span><a>ou@osice.cz</a></p>
+                <p class="display-flex-row"><span class="karta-obsah-radek">Adresa:</span><a href="https://www.google.cz/maps/place/Osice+117,+503+26+Osice/@50.1444892,15.6828375,17z/data=!3m1!4b1!4m5!3m4!1s0x470c2dd9e64d8385:0xfc5ca2c7ff4f9369!8m2!3d50.1444858!4d15.6850262" target="_blank" class="karta-telefon">Obec Osice<br>Osice 117<br>503 26 Osice</a> </p>
+                <p class="display-flex-row"><span class="karta-obsah-radek">Telefon:</span><a href="tel:+420495451823" class="karta-telefon">+420 495 451 823</a></p>
+                <p class="display-flex-row"><span class="karta-obsah-radek">E-mail:</span><a href="mailto:ou@osice.cz" class="karta-telefon">ou@osice.cz</a></p>
                 <p class="display-flex-row"><span class="karta-obsah-radek">Datová schránka:</span><a>2t8apji</a></p>
                 <p class="display-flex-row"><span class="karta-obsah-radek">Bankovní spojení:</span><a>1080811309/0800</a></p>
                 <p class="display-flex-row"><span class="karta-obsah-radek">IČ:</span><a>00653381</a></p>
@@ -113,7 +113,8 @@
 
       </div>
 
-      <div class="formular display-flex-column">
+      
+      <form class="formular display-flex-column">
          <h2 class="formular-nadpis">Elektronická podatelna / Napište nám</h2>
 
         <div class="display-flex-row">
@@ -140,7 +141,7 @@
 
         <button class="form-button">Odeslat zprávu</button>
 
-      </div>
+      </form>
       
     
     </div>
