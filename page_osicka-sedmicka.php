@@ -1,7 +1,7 @@
 <?php include "_top.php"; ?>
 <div class="container">
     <div class="page-body col-12 col-lg-8">
-      <h6 class="sekce-nadpis"> <a class="breadcrumb" href="">Osice</a> > <a class="breadcrumb" href="">Volný čas</a> > <a class="breadcrumb" href="/osicka-sedmicka/">Osická sedmička</a></h6>
+      <h6 class="sekce-nadpis"> <a class="breadcrumb" href="/home/">Osice</a> > <a class="breadcrumb" href="">Volný čas</a> > <a class="breadcrumb" href="/osicka-sedmicka/">Osická sedmička</a></h6>
 
       <div class="sedmicka">
         <h3 class="informace-nadpis sedmicka-nadpis">Osická sedmička</h3>
@@ -14,35 +14,18 @@
       </div>
 
       <div class="display-flex-row sedmicka-obrazky">
-        <a href="/img/blank-img.jpg" class="blank-img-a" data-fancybox="images" data-caption="blank-img1"> 
-          <img class="blank-img" src="/img/blank-img.jpg" alt="blank-img">
-        </a>
-        <a href="/img/blank-img.jpg" class="blank-img-a" data-fancybox="images" data-caption="blank-img2"> 
-          <img class="blank-img" src="/img/blank-img.jpg" alt="blank-img">
-        </a>
-        <a href="/img/blank-img.jpg" class="blank-img-a" data-fancybox="images" data-caption="blank-img3"> 
-          <img class="blank-img blank-img-last" src="/img/blank-img.jpg" alt="blank-img">
-        </a>
 
-        <a href="/img/blank-img.jpg" class="blank-img-a" data-fancybox="images" data-caption="blank-img4"> 
-          <img class="blank-img" src="/img/blank-img.jpg" alt="blank-img">
-        </a>
-        <a href="/img/blank-img.jpg" class="blank-img-a" data-fancybox="images" data-caption="blank-img5"> 
-          <img class="blank-img" src="/img/blank-img.jpg" alt="blank-img">
-        </a>
-        <a href="/img/blank-img.jpg" class="blank-img-a" data-fancybox="images" data-caption="blank-img6"> 
-          <img class="blank-img blank-img-last" src="/img/blank-img.jpg" alt="blank-img">
-        </a>
+        <img href="/img/blank-img.jpg" data-fancybox="images" data-caption="blank-img1" class="blank-img" src="/img/blank-img.jpg" alt="Osická sedmička - Obec Osice">
+        <img href="/img/blank-img.jpg" data-fancybox="images" data-caption="blank-img2" class="blank-img" src="/img/blank-img.jpg" alt="Osická sedmička - Obec Osice">
+        <img href="/img/blank-img.jpg" data-fancybox="images" data-caption="blank-img3" class="blank-img blank-img-last" src="/img/blank-img.jpg" alt="Osická sedmička - Obec Osice">
 
-        <a href="/img/blank-img.jpg" class="blank-img-a" data-fancybox="images" data-caption="blank-img7"> 
-          <img class="blank-img" src="/img/blank-img.jpg" alt="blank-img">
-        </a>
-        <a href="/img/blank-img.jpg" class="blank-img-a" data-fancybox="images" data-caption="blank-img8"> 
-          <img class="blank-img" src="/img/blank-img.jpg" alt="blank-img">
-        </a>
-        <a href="/img/blank-img.jpg" class="blank-img-a" data-fancybox="images" data-caption="blank-img9"> 
-          <img class="blank-img blank-img-last" src="/img/blank-img.jpg" alt="blank-img">
-        </a>
+        <img href="/img/blank-img.jpg" data-fancybox="images" data-caption="blank-img4" class="blank-img" src="/img/blank-img.jpg" alt="Osická sedmička - Obec Osice">
+        <img href="/img/blank-img.jpg" data-fancybox="images" data-caption="blank-img5" class="blank-img" src="/img/blank-img.jpg" alt="Osická sedmička - Obec Osice">
+        <img href="/img/blank-img.jpg" data-fancybox="images" data-caption="blank-img6" class="blank-img blank-img-last" src="/img/blank-img.jpg" alt="Osická sedmička - Obec Osice">
+
+        <img href="/img/blank-img.jpg" data-fancybox="images" data-caption="blank-img7" class="blank-img" src="/img/blank-img.jpg" alt="Osická sedmička - Obec Osice">
+        <img href="/img/blank-img.jpg" data-fancybox="images" data-caption="blank-img8" class="blank-img" src="/img/blank-img.jpg" alt="Osická sedmička - Obec Osice">
+        <img href="/img/blank-img.jpg" data-fancybox="images" data-caption="blank-img9" class="blank-img blank-img-last" src="/img/blank-img.jpg" alt="Osická sedmička - Obec Osice">
 
       </div>
 

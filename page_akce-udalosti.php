@@ -1,7 +1,7 @@
 <?php include "_top.php"; ?>
 <div class="container">
     <div class="page-body col-12 col-lg-8">
-      <h6 class="sekce-nadpis"> <a class="breadcrumb" href="">Osice</a> > <a class="breadcrumb" href="">Volný čas</a> > <a class="breadcrumb" href="/akce-udalosti/">Akce a události</a></h6>
+      <h6 class="sekce-nadpis"> <a class="breadcrumb" href="/home/">Osice</a> > <a class="breadcrumb" href="">Volný čas</a> > <a class="breadcrumb" href="/akce-udalosti/">Akce a události</a></h6>
       <div class="uredni-deska">
         <h3 class="informace-nadpis">Akce a události</h3>
 

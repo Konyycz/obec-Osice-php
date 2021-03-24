@@ -1,7 +1,7 @@
 <?php include "_top.php"; ?>
 <div class="container">
     <div class="page-body col-12 col-lg-8">
-      <h6 class="sekce-nadpis"> <a class="breadcrumb" href="">Osice</a> > <a class="breadcrumb" href="">Obecní úřad</a> > <a class="breadcrumb" href="/uredni-deska/">Úřední deska</a></h6>
+      <h6 class="sekce-nadpis"> <a class="breadcrumb" href="/home/">Osice</a> > <a class="breadcrumb" href="">Obecní úřad</a> > <a class="breadcrumb" href="/uredni-deska/">Úřední deska</a></h6>
       <div class="uredni-deska">
         <h3 class="informace-nadpis">Úřední deska</h3>
 
@@ -63,7 +63,7 @@
             </div>
           </div>
         </div>
-        <a class="uredni-deska-nadpis-spodni display-flex-row" href="/uredni-deska/uredni-deska-archiv/">Archiv úřední desky <img src="/img/prvky/arrow-right2.svg" alt="arrow-right"/></a>
+        <a class="uredni-deska-nadpis-spodni display-flex-row" href="/uredni-deska/uredni-deska-archiv/">Archiv úřední desky <img src="/img/prvky/arrow-right2.svg" alt="Úřední deska - Obec Osice"/></a>
       </div>
 
 

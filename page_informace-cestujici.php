@@ -1,7 +1,7 @@
 <?php include "_top.php"; ?>
 <div class="container">
     <div class="page-body col-12 col-lg-8">
-      <h6 class="sekce-nadpis"> <a class="breadcrumb" href="">Osice</a> > <a class="breadcrumb" href="">Obecní úřad</a> > <a class="breadcrumb" href="/uredni-deska/">Úřední deska</a></h6>
+      <h6 class="sekce-nadpis"> <a class="breadcrumb" href="/home/">Osice</a> > <a class="breadcrumb" href="">Obecní úřad</a> > <a class="breadcrumb" href="/uredni-deska/">Úřední deska</a></h6>
 
       <div class="display-flex-column informace-karta">
         <h3 class="cestujici-nadpis">Informace pro cestující s platností od 19.10.2020</h3>
@@ -23,7 +23,7 @@
         </div>
       </div>
 
-    <a class="uredni-deska-nadpis-spodni display-flex-row" href="/uredni-deska/">Zpět na přehled úřední desky <img src="/img/prvky/arrow-right2.svg" alt="arrow-right"/></a>
+    <a class="uredni-deska-nadpis-spodni display-flex-row" href="/uredni-deska/">Zpět na přehled úřední desky <img src="/img/prvky/arrow-right2.svg" alt="Informace pro cestující - Obec Osice"/></a>
 
 
 

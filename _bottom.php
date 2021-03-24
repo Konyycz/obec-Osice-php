@@ -4,15 +4,15 @@
         <h2 class="paticka-vrchni-nadpis">Partneři</h2>
         <div class="display-flex-row paticka-vrchni-loga">
             <div class="display-flex-column col-12 col-md-6 col-lg-4 paticka-vrchni-partner">
-                <img class="partneri-logo" src="/img/logo/edera.png" alt="logo-edera">
+                <img class="partneri-logo" src="/img/logo/edera.png" alt="Partner EDERA Group - Obec Osice">
                 <h6 class="paticka-nadpis-mini">EDERA Group</h6>
             </div>
             <div class="display-flex-column col-12 col-md-6 col-lg-4 paticka-vrchni-partner">
-                <img class="partneri-logo" src="/img/logo/ceska-obec.png" alt="logo-ceska-obec">
+                <img class="partneri-logo" src="/img/logo/ceska-obec.png" alt="Partner Česká obec - Obec Osice">
                 <h6 class="paticka-nadpis-mini">Česká obec</h6>
             </div>
             <div class="display-flex-column col-12 col-lg-4 paticka-vrchni-partner">
-                <img class="partneri-logo" src="/img/logo/czechpoint.png" alt="logo-czechpoint">
+                <img class="partneri-logo" src="/img/logo/czechpoint.png" alt="Partner Czech POINT - Obec Osice">
                 <h6 class="paticka-nadpis-mini">Czech POINT</h6>
             </div>
         </div>
@@ -80,6 +80,35 @@
   <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
   <script src="/js/jquery.paginate.js"></script>
 
+  <script>
+/* Menu */
+    $(window).scroll(function(){
+      const scroll_value = $(window).scrollTop();
+      if (scroll_value > 529) {
+        if (scroll_value > (document.body.scrollHeight - 1150)) return;
+
+        const value = $(window).scrollTop() - 380;
+        $(".main-menu-active").css({"marginTop": value + "px"});
+      } else {
+        $(".main-menu-active").css({"marginTop": "0px"});
+      }
+    });
+
+
+
+    function menuHandler(){
+        $(".menu-mobile-body").css({"right": $( ".menu-img-menu" ).hasClass("menu-img-close") ? "-350px" : "0px"});
+        $(".menu-img-menu").toggleClass("menu-img-close");
+    };
+
+/* Breadcrumb */ 
+    $(".main-menu").hover(function(){   
+        $(".menu-pc").css({"zIndex": "20"});
+    }, function(){   
+        $(".menu-pc").css({"zIndex": "2"}); 
+    });
+
+</script>
 
 </body>
 </html>

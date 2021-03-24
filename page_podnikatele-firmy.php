@@ -1,7 +1,7 @@
 <?php include "_top.php"; ?>
 <div class="container">
     <div class="page-body col-12 col-lg-8">
-      <h6 class="sekce-nadpis"> <a class="breadcrumb" href="">Osice</a> > <a class="breadcrumb" href="">Obec</a> > <a class="breadcrumb" href="/podnikatele-firmy/">Podnikatelé a firmy</a></h6>
+      <h6 class="sekce-nadpis"> <a class="breadcrumb" href="/home/">Osice</a> > <a class="breadcrumb" href="">Obec</a> > <a class="breadcrumb" href="/podnikatele-firmy/">Podnikatelé a firmy</a></h6>
       <div class="uredni-deska">
         <h3 class="informace-nadpis">Podnikatelé a firmy</h3>
 

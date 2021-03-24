@@ -1,7 +1,7 @@
 <?php include "_top.php"; ?>
 <div class="container">
     <div class="page-body col-12 col-lg-8" style="margin-bottom: 30px;">
-      <h6 class="sekce-nadpis"> <a class="breadcrumb" href="">Osice</a> > <a class="breadcrumb" href="">Obecní úřad</a> > <a class="breadcrumb" href="/uredni-deska/">Úřední deska</a> > <a class="breadcrumb" href="/uredni-deska/uredni-deska-archiv/">Archiv</a></h6>
+      <h6 class="sekce-nadpis"> <a class="breadcrumb" href="/home/">Osice</a> > <a class="breadcrumb" href="">Obecní úřad</a> > <a class="breadcrumb" href="/uredni-deska/">Úřední deska</a> > <a class="breadcrumb" href="/uredni-deska/uredni-deska-archiv/">Archiv</a></h6>
       <div class="uredni-deska">
         <h3 class="informace-nadpis">Úřední deska - archiv</h3>
 
@@ -18,18 +18,19 @@
           <div class="display-flex-column col-12 col-md-6 col-lg-2">
             <label class="combobox-label" for="month">Měsíc:</label>
             <select class="combobox" name="month" id="month">
-              <option value="2021"></option>
-              <option value="2020">2020</option>
-              <option value="2019">2019</option>
-              <option value="2021">2021</option>
-              <option value="2020">2020</option>
-              <option value="2019">2019</option>
-              <option value="2021">2021</option>
-              <option value="2020">2020</option>
-              <option value="2019">2019</option>
-              <option value="2021">2021</option>
-              <option value="2020">2020</option>
-              <option value="2019">2019</option>
+              <option value="xy"></option>
+              <option value="leden">leden</option>
+              <option value="únor">únor</option>
+              <option value="březen">březen</option>
+              <option value="duben">duben</option>
+              <option value="květen">květen</option>
+              <option value="červen">červen</option>
+              <option value="červenec">červenec</option>
+              <option value="srpen">srpen</option>
+              <option value="září">září</option>
+              <option value="říjen">říjen</option>
+              <option value="listopad">listopad</option>
+              <option value="prosinec">prosinec</option>
             </select>
           </div>
 
@@ -46,7 +47,7 @@
 
         <div class="display-flex-column">
           <div class="karta uredni-deska-karta karta-zluty-bok">
-            <a class="uredni-deska-nadpis" href="">Informace pro cestující s platností<br> od 19.10.2020</a>
+            <a class="uredni-deska-nadpis" href="/informace-cestujici/">Informace pro cestující s platností<br> od 19.10.2020</a>
 
             <div class="display-flex-row"> 
               <div class="display-flex-column col-12 col-md-6">
@@ -66,7 +67,7 @@
 
 
           <div class="karta uredni-deska-karta karta-zluty-bok">
-            <a class="uredni-deska-nadpis" href="">Informace pro cestující s platností<br> od 19.10.2020</a>
+            <a class="uredni-deska-nadpis" href="/informace-cestujici/">Informace pro cestující s platností<br> od 19.10.2020</a>
             
             
             <div class="display-flex-row"> 
@@ -85,7 +86,7 @@
           </div>
 
           <div class="karta uredni-deska-karta karta-zluty-bok">
-            <a class="uredni-deska-nadpis" href="">Informace pro cestující s platností<br> od 19.10.2020</a>
+            <a class="uredni-deska-nadpis" href="/informace-cestujici/">Informace pro cestující s platností<br> od 19.10.2020</a>
             
             
             <div class="display-flex-row"> 

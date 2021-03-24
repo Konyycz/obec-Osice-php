@@ -1,12 +1,12 @@
 <?php include "_top.php"; ?>
 <div class="container">
     <div class="page-body col-12 col-lg-8">
-      <h6 class="sekce-nadpis"> <a class="breadcrumb" href="">Osice</a> > <a class="breadcrumb" href="">Obec</a> > <a class="breadcrumb" href="/jizdni-rady/">Jízdní řády</a></h6>
+      <h6 class="sekce-nadpis"> <a class="breadcrumb" href="/home/">Osice</a> > <a class="breadcrumb" href="">Obec</a> > <a class="breadcrumb" href="/jizdni-rady/">Jízdní řády</a></h6>
       <h3 class="informace-nadpis">Jízdní řády</h3>
  
       <div class="display-flex-column">
         <div class="display-flex-row jizdni-rady">
-          <div class="jizdni-rady-img col-12 col-sm-4"></div>
+          <div class="jizdni-rady-img col-12 col-sm-4" style="background-image: url('../img/blank-img.jpg');"></div>
           <div class="display-flex-column jizdni-rady-text col-12 col-sm-8">
             <h3 class="jizdni-rady-h3">Autobus</h3>
             <h4 class="jizdni-rady-h4">Hradec Králové - Osice - Křičeň</h4>
@@ -17,7 +17,7 @@
         </div>
 
         <div class="display-flex-row jizdni-rady">
-          <div class="jizdni-rady-img col-12 col-sm-4"></div>
+          <div class="jizdni-rady-img col-12 col-sm-4" style="background-image: url('../img/blank-img.jpg');"></div>
           <div class="display-flex-column jizdni-rady-text col-12 col-sm-8">
             <h3 class="jizdni-rady-h3">Autobus</h3>
             <h4 class="jizdni-rady-h4">Pardubice - Stéblová - Staré<br>Ždánice - Osice - Dobřenice</h4>
@@ -27,7 +27,7 @@
         </div>
 
         <div class="display-flex-row jizdni-rady">
-          <div class="jizdni-rady-img col-12 col-sm-4"></div>
+          <div class="jizdni-rady-img col-12 col-sm-4" style="background-image: url('../img/blank-img.jpg');"></div>
           <div class="display-flex-column jizdni-rady-text col-12 col-sm-8">
             <h3 class="jizdni-rady-h3">Vlaky</h3>
             <h4 class="jizdni-rady-h4">Praha - Velký Osek</h4>

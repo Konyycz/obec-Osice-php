@@ -80,21 +80,3 @@
     </div>
 </div>
 
-<script>
-    $(window).scroll(function(){
-      const scroll_value = $(window).scrollTop();
-      if (scroll_value > 529) {
-        if (scroll_value > (document.body.scrollHeight - 1150)) return;
-
-        const value = $(window).scrollTop() - 380;
-        $(".main-menu-active").css({"marginTop": value + "px"});
-      } else {
-        $(".main-menu-active").css({"marginTop": "0px"});
-      }
-    });
-
-    function menuHandler(){
-        $(".menu-mobile-body").css({"right": $( ".menu-img-menu" ).hasClass("menu-img-close") ? "-350px" : "0px"});
-        $(".menu-img-menu").toggleClass("menu-img-close");
-    };
-</script>
